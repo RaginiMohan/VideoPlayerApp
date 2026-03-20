@@ -6,69 +6,60 @@ Developed a dynamic, two-page mobile application that leverages the Pexels API t
 
 ## 🚀 Features
 
-### 📱 Home Screen (Video Discovery)
-- Displays videos in a responsive **3-column grid**
-- Shows video thumbnail, duration, and creator name
-- Supports smooth scrolling and fast loading
-
-### ▶️ Player Screen (Playback Experience)
-- High-quality video playback using **AVKit**
-- Clean and immersive UI
-- Tap on any video to start playback
-
-### 🔄 Continuous Play / Next Up
-- “Next Up” section with **3 items per row grid**
-- Highlights currently playing video
-- Tap any item to switch instantly
-
-### ⏭️ Autoplay Logic
-- Automatically plays the next video when current video ends
-- Seamless transition without user interaction
+- Video grid listing (Home Screen)
+- Video playback using AVKit
+- “Next Up” section with 3-column grid
+- Autoplay next video
+- Smooth navigation and UI experience
 
 ---
 
 ## 🏗️ Architecture
 
-- **MVVM (Model-View-ViewModel)**
-- Separation of concerns for scalability and maintainability
+- MVVM (Model-View-ViewModel)
+- Clean separation of concerns
 
 ---
 
 ## 🛠️ Tech Stack
 
-- SwiftUI
-- AVKit (Video Playback)
-- Combine / Async-Await
-- URLSession (Networking)
-
----
-
-## 🌐 API
-
-- Integrated with **Pexels API** for fetching video content  
-- Handles pagination and dynamic data loading
-
----
-
-## ⚡ Performance & Optimization
-
-- Efficient rendering using **LazyVGrid**
-- Avoided retain cycles in AVPlayer handling
-- Smooth scrolling and playback transitions
+- SwiftUI  
+- AVKit  
+- Combine / Async-Await  
+- URLSession  
 
 ---
 
 ## 📸 Screenshots
 
-> Add screenshots here (optional but recommended)
+### 🏠 Home Screen
+![Home](Screenshots/home.png)
+
+### ▶️ Player Screen
+![Player](Screenshots/player.png)
+
+### ⏯️ Player Controls
+![Player Controls](Screenshots/playerPlayPause.png)
+
+### 📋 Next Up Grid
+![Next Up](Screenshots/nextup.png)
+
+### 🔽 Next Up Scroll
+![Next Up Scroll](Screenshots/nextupScroll.png)
+
+---
+
+## 🎥 Demo Video
+
+<video src="Screenshots/VideoPlayerApp.mov" controls width="300"></video>
 
 ---
 
 ## 📌 Notes
 
-- Designed with focus on **UX and performance**
-- Clean, modular, and reusable components
-- Easily extendable for features like fullscreen, reels-style UI, etc.
+- Designed for smooth UX and performance
+- Efficient rendering using LazyVGrid
+- Stable video playback with autoplay functionality
 
 ---
 
