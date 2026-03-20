@@ -30,36 +30,17 @@ Developed a dynamic, two-page mobile application that leverages the Pexels API t
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots & Demo
 
-### 🏠 Home Screen
-![Home](Screenshots/home.png)
-
-### ▶️ Player Screen
-![Player](Screenshots/player.png)
-
-### ⏯️ Player Controls
-![Player Controls](Screenshots/playerPlayPause.png)
-
-### 📋 Next Up Grid
-![Next Up](Screenshots/nextup.png)
-
-### 🔽 Next Up Scroll
-![Next Up Scroll](Screenshots/nextupScroll.png)
-
----
-
-## 🎥 Demo Video
-
-<video src="Screenshots/VideoPlayerApp.mov" controls width="300"></video>
+Screenshots and demo video are available in the `Screenshots` folder.
 
 ---
 
 ## 📌 Notes
 
-- Designed for smooth UX and performance
-- Efficient rendering using LazyVGrid
-- Stable video playback with autoplay functionality
+- Designed for smooth UX and performance  
+- Efficient rendering using LazyVGrid  
+- Stable video playback with autoplay functionality  
 
 ---
 
